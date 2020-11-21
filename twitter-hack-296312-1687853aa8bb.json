@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "twitter-hack-296312",
+  "private_key_id": "1687853aa8bbb7cf69e37c09163730d32431ca13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDbUcRCt9NeiBI0\n50eKqXAyL73dpzw0fDGs7DNk+ztPYbE3RBYyHTdcavi6k5qYue5BkPi/niaikmEh\neKPMQbTPOcQwtPJeNyThKFIDMSNzbusuhhNVQ4aQjmGTSBHu47kCblZPLQe77ztd\n6qx9OBjBqP2zh5xta9pIS9iQY5NYRF4nqbR75pmeptO77gtoPUNiYgCCKQiMWIR/\nZ6M8XaGFcbh53WPRVOw3cN6okezZkZYyv6BgpEJl3nfc5mA8KLNTh4fQpD3iihK6\na4fp2P3J9W8n4GOhkIg/yQPB000uQ5wGThMLJoPuaPSXFTc3uma7Tck/dXdpwZIE\nryJPHcYpAgMBAAECggEAR2d6p2IkDf3tN44pC6sYnS5P+Y9OGaRpo+wO24y0Bac/\nxEeFlnFOqecl7dDKn3jBalVhtzktSPaxau1VHtYxoNok1trCogwAFNJEyUdBTH7L\nUQ1T1Am1EPFaMVJgjE9V18XGkeaOQxCjWnNiDy6pWLvFRaMcOb/IhIs1CeVxfmXB\ndej8z0Mz5QMvjT77YmW4UTR/f2kkpVyrPe262ATWgTnA0QHzAeHujS0+H59n2Ko3\ncNsqH8cbfw+1lNMpHjGHCos5rzXKmwkgnre7RnLi/gGmqmKoflzlrkZ5rJib9Wnr\nI976M0uSEHzlmc1Gep9LI39Bg6DcnTPQIm2qK9kCZQKBgQD3eecoQSJbJwgjlQ3s\ndDr6Rsh1BEAjHQ68wZ4BwBLXJ3FThAFHchxIC1Ls83u5hmhwnAeedgrZanAswqCN\nokE3+GMUuvVaANwbQRu5616r/48r5qM7lVtVHPbuxIjWkruulmFW6whDuq3XgLUo\nTWZyzvtSPvZOTzlf7LBhBNiKawKBgQDi35gRAfrtwSqQtkrb53U0i1OpFHCwLosm\nVoJ8WtuTSK2YmjXa7+3aWo0sZyRK3SwY2JeZ7lPtPtIe2QsFfgBTp2wM7dUR3ynH\nDVN54ueUVRyltaCDR53t4cECcJNePUz2hazz9emD+kwYe9rzJC9KPSKwXY9qNCR6\nDfF6ZnB+uwKBgQCR/DNEJ8gghVHjy5W/GoGACilN/gfnrsh2yLBwz+FNUlMjtQcc\nIlBUn3l3ldoygvsxEpnb/D5CKuupO9aCNmjKn5ezLuZ1BXTSDwJQFmxugf7vIsq/\n50dNWhzAlOczzLMyNjuNjm/9pC3Qpng3IhGBQGA5EDMz1sA9ud4CHV2vqQKBgQCz\nOcoK3ZKa0nfK3Iek02PO/6Y2szQWqp44yizJCond/5NMM78J13MChXhzNIQCNFlK\nw4h4DUP17yPVRMclLpYZf/CnAhfJx49cdZWVe4BQuTApZKOKMkB8FVUBlWeGEk1D\njvTDwWgZX9lPmkCsxdAqCMPnqfHLB6gtV+iFNnn2UwKBgCvEJFTxvuoRZ7O/an+8\ni9a6U0T8w2YKLwBFDaRqIM07Huo3l7mBv8TN8UdEN4NkvUatpTnLKeSYKXJiiU9P\nQDOLAq7VAGzIXN2oqsLl1zZw6ipHyFxYK7GJ17c698P0KPQ2/pHtwdz+Z29ZRDjs\n6aaLoUlSxxyHdrIR47u+mMhe\n-----END PRIVATE KEY-----\n",
+  "client_email": "marcel@twitter-hack-296312.iam.gserviceaccount.com",
+  "client_id": "100562165811253243098",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/marcel%40twitter-hack-296312.iam.gserviceaccount.com"
+}
