@@ -1,23 +1,21 @@
-
-.pic{
+.pic {
   width: 250px;
 }
 
-
-.profilePic{
-    height: 150px;
-    border-radius: 50%;
+.profilePic {
+  height: 150px;
+  border-radius: 50%;
 }
 
 /* .picture{
   width: 
 } */
 
-.down{
+.down {
   margin-top: 70px;
 }
 
-.doo{
+.doo {
   height: 250px;
   background: #34525ce3;
   border-radius: 15px;
@@ -30,7 +28,7 @@
   vertical-align: text-bottom;
 }
 
-.quote{
+.quote {
   color: white;
   font-size: larger;
 }
@@ -42,51 +40,50 @@
   left: 0;
   z-index: 100; /* Behind the navbar */
   padding: 48px 0 0; /* Height of navbar */
-  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
   background: #f0f6f8;
 }
 
 @media (max-width: 767.98px) {
-    .sidebar {
-      top: 5rem;
-    }
-/* 
+  .sidebar {
+    top: 5rem;
+  }
+  /* 
     .picture{
       align-items: center;
     } */
-  }
+}
 
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sidebar-sticky {
-    position: relative;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: .5rem;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    position: -webkit-sticky;
+    position: sticky;
   }
+}
 
-  @supports ((position: -webkit-sticky) or (position: sticky)) {
-    .sidebar-sticky {
-      position: -webkit-sticky;
-      position: sticky;
-    }
-  }
-  
-  .sidebar .nav-link {
-    font-weight: 500;
-    color: #333;
-  }
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
 
-  .sidebar .nav-link.active {
-    color: #ce1b75;
-  }
+.sidebar .nav-link.active {
+  color: #ce1b75;
+}
 
-  .navbar{
-    background: #152125;
-  }
+.navbar {
+  background: #152125;
+}
 
-
-  .navbar .navbar-toggler {
-    top: .25rem;
-    right: 1rem;
-  }
+.navbar .navbar-toggler {
+  top: 0.25rem;
+  right: 1rem;
+}
