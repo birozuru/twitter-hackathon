@@ -26,29 +26,35 @@
     <title>WeCare</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow pt-2 pb-2">
-        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Company name</a>
+    <nav class="navbar navbar-dark sticky-top flex-md-nowrap p-0 shadow pt-2 pb-2">
+        <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">
+          <img src="images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+          We Care
+        </a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav px-3">
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#">Sign out</a>
+            <a class="nav-link" href="#">
+              Sign out
+              <span data-feather="log-out"></span>
+            </a>
           </li>
         </ul>
       </nav>
     <div class="container-fluid">
         <div class="row">
-          <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+          <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block sidebar collapse">
             <div class="sidebar-sticky pt-3 down">
               <ul class="nav flex-column">
                 <li class="nav-item text-center">
                  <img src="images/profile-pic.jpg" alt="" class="profilePic img-fluid align-middle">
                 </li>
-                <li class="nav-item text-center pt-2">
-                    Jane Austen
+                <li class="nav-item text-center pt-2 font-weight-bold">
+                    Jane Brown
                 </li>
-                <li class="nav-item text-center">
+                <li class="nav-item text-center font-weight-light">
                     Counsellor
                 </li>
                 <hr>
@@ -58,7 +64,7 @@
       
               <ul class="nav flex-column mb-2">
                  <li class="nav-item text-center">
-                  <a class="nav-link" href="#">
+                  <a class="nav-link active" href="#">
                     <span data-feather="users"></span>
                     Active
                   </a>
@@ -81,11 +87,13 @@
       
           <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-              <div class="col-md-12 doo d-flex flex-wrap flex-md-nowrap">
-                  <img src="" alt="" class="picture">
-                  <div class="innersection">
-                    <p class="quote">“What mental health needs is more sunlight, more candor, and more unashamed conversation.” – Glenn Close</p>
-                    <div class="summaryInfo">
+              <div class="col-md-12 doo d-flex align-items-center flex-wrap flex-md-nowrap">
+                  <div class="pic d-flex justify-content-center">
+                    <img src="images/doc.png" alt="" class="picture w-100">
+                  </div>
+                  <div class="innersection d-flex justify-content-center">
+                    <p class="quote w-75 font-italic font-weight-light">“What mental health needs is more sunlight, more candor, and more unashamed conversation.” – <span class="font-weight-bold">Glenn Close</span></p>
+                    <!-- <div class="summaryInfo">
                       <div class="info">
                         <h4 class="topic"></h4>
                         <p class="value" id="value"></p>
@@ -102,7 +110,7 @@
                         <h4 class="topic"></h4>
                         <p class="value" id="value"></p>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
               </div>
             </div>
